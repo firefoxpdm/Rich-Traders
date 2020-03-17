@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TraderKindDef[defName = "Base_Neolithic_Standard"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+		<value>
+			<countRange>80000~300000</countRange>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TraderKindDef[defName = "Visitor_Neolithic_Standard"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+		<value>
+			<countRange>5000~25000</countRange>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TraderKindDef[defName = "Caravan_Neolithic_BulkGoods"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+		<value>
+			<countRange>75000~120000</countRange>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TraderKindDef[defName = "Caravan_Neolithic_WarMerchant"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+		<value>
+			<countRange>75000~120000</countRange>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TraderKindDef[defName = "Caravan_Neolithic_Slaver"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+		<value>
+			<countRange>75000~120000</countRange>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TraderKindDef[defName = "Caravan_Neolithic_ShamanMerchant"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+		<value>
+			<countRange>75000~120000</countRange>
+		</value>
+	</Operation>
+
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TraderKindDef[defName = "Base_Outlander_Standard"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+		<value>
+			<countRange>80000~300000</countRange>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TraderKindDef[defName = "Visitor_Outlander_Standard"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+		<value>
+			<countRange>5000~25000</countRange>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TraderKindDef[defName = "Caravan_Outlander_BulkGoods"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+		<value>
+			<countRange>75000~120000</countRange>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TraderKindDef[defName = "Caravan_Outlander_CombatSupplier"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+		<value>
+			<countRange>75000~120000</countRange>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TraderKindDef[defName = "Caravan_Outlander_PirateMerchant"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+		<value>
+			<countRange>75000~120000</countRange>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TraderKindDef[defName = "Caravan_Outlander_Exotic"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+		<value>
+			<countRange>75000~120000</countRange>
+		</value>
+	</Operation>
+
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TraderKindDef[defName = "Orbital_BulkGoods"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+		<value>
+			<countRange>200000~400000</countRange>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TraderKindDef[defName = "Orbital_CombatSupplier"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+		<value>
+			<countRange>200000~400000</countRange>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TraderKindDef[defName = "Orbital_Exotic"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+		<value>
+			<countRange>200000~400000</countRange>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TraderKindDef[defName = "Orbital_PirateMerchant"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+		<value>
+			<countRange>200000~400000</countRange>
+		</value>
+	</Operation>
+
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TraderKindDef[defName = "Base_Empire_Standard"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+		<value>
+			<countRange>80000~300000</countRange>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TraderKindDef[defName = "Empire_Caravan_TraderGeneral"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+		<value>
+			<countRange>75000~120000</countRange>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TraderKindDef[defName = "Orbital_Empire"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+		<value>
+			<countRange>200000~400000</countRange>
+		</value>
+	</Operation>
+</Patch>
